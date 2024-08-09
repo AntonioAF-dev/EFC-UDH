@@ -1,0 +1,231 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Estilos para el encabezado*/
+
+header h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 225px;
+    text-align: center;
+
+}
+
+header img {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 26em;
+    display: block;
+}
+
+/*Estilos para el navbar*/
+
+.navbar-header {
+    background-color: #0071c1;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.navbar-header a {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #fff;
+    display: block;
+}
+
+.navbar-header a:hover {
+    cursor: pointer;
+}
+
+/*Estilos para Historia*/
+
+.historia {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 550px;
+}
+
+.historia .text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 35px;
+}
+
+.historia h2 {
+    color: #000000;
+    font-size: 2.5em;
+    padding-left: 15px;
+    height: 10px;
+}
+
+
+.text-hs {
+    font-size: 40px;
+    color: #767173;
+    margin-top: 0.5em;
+    padding-left: 15px;
+    text-align: justify;
+}
+
+.Negritos-Huánuco {
+    padding: 3% 3%;
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+
+/*Estilos para Lugares Turisticos*/
+
+.lugares {
+    display: block;
+}
+
+.lugares p {
+    background-color: #0071c1;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 330%;
+    font-weight: bold;
+    display: block;
+}
+
+.turistico {
+    display: flex;
+    justify-content: space-around;
+    /* Distribuye los elementos horizontalmente */
+    align-items: flex-start;
+    /* Alinea los elementos al inicio */
+    padding-top: 0%;
+    margin-bottom: 25px;
+}
+
+.lugar {
+    text-align: center;
+    /* Centra el contenido */
+    margin: 0 10px;
+}
+
+.fotos {
+    width: 420px;
+    /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 500px;
+    /* Para mantener la proporción */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nombre {
+    width: 380px;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: 1.5em;
+    /* Tamaño del texto del nombre */
+    color: #0070c0;
+    /* Color del texto */
+    margin-bottom: 5px;
+    /* Espacio inferior entre el nombre y la imagen */
+}
+
+/*Estilos para el footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    /* Espacio entre las columnas */
+    align-items: flex-start;
+    /* Alinea los elementos al inicio */
+    padding: 5px 25px;
+    /* Espaciado interno */
+    background-color: #e7e6e6;
+    /* Color de fondo del footer */
+}
+
+footer>div {
+    flex: 1;
+    /* Hace que cada columna tenga el mismo ancho */
+    padding: 0 20px;
+    /* Espaciado interno en cada columna */
+}
+
+.informes,
+.siguenos {
+    color: #767173;
+}
+
+.correo {
+    cursor: pointer;
+    font-size: large;
+    color: #777173;
+    margin-bottom: 10px;
+    /* Espacio inferior de los elementos */
+}
+
+.pie-pg {
+    color: #33aba0;
+    font-size: 2em;
+    margin-bottom: 15px;
+    /* Espacio inferior del título */
+}
+
+
+.direcciones {
+    font-size: large;
+    color: #777173;
+    margin-bottom: 10px;
+    /* Espacio inferior de los elementos */
+}
+
+.redes {
+    cursor: pointer;
+    width: 60px;
+    /* Ajusta el tamaño de los iconos según sea necesario */
+    height: auto;
+    /* Para mantener la proporción */
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 15px;
+    /* Espacio derecho entre los iconos */
+}
+
+
+.escudo-hco {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    padding-top: 3.5%;
+}
+
+.escudo {
+    margin: auto;
+    /* Centra la imagen verticalmente */
+    width: 100px;
+    /* Ajusta el tamaño del escudo según sea necesario */
+    height: auto;
+    /* Para mantener la proporción */
+}
